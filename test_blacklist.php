@@ -28,7 +28,11 @@ $blacklist = array(
    # Missing blacklist catching of foreign content
    array("groupname"=>"alt.binaries.*", "regex"=>'[-.](FR|DE|ITA)[-.]'),
    # Common German Keywords
-   array("groupname"=>"alt.binaries.*", "regex"=>'(^|[.\/ \-]+)(sie|seit|ihn|ihm|haben|besitzen|sein|kriegen|nehmen|welche|jenes|von|auf|gegen|nach|das|sein|der|und|fuer|ersten|leicht|meinem|zum|aus|dem|blitzlicht|alle|grosse|zed|ich|sed|blitzen)([.\/ \-]+|$)'),
+   array("groupname"=>"alt.binaries.*", "regex"=>'(^|[.\/ \-]+)(der|dem|des|und|vom|von|zu|zum|zur|das|mit|sich|auf|ist|sein|sind|sei|sein|nicht|eine|einen|einer|einem|eines|als|auch|es|ans|werden|wurde|wird|aus|haben|hatte|habe|dass|sie|nach|bei|noch|um|wie|uber|oder|aber|vor|vorm|vors|bis|mehr|durch|kann|konnte|gegen|schon|wenn|seinen|seinen|ihre|ihr|dann|unter|wir|soll|sollen|sollte|ich|jahr|das|jahres|jahren|zwei|diese|dieser|dieses|wider|uhr|wollen|willst|zswischen|immer|millionen|eine|sagte|sagen|sagt|gibt|geben|alle|seit|muss|mussen|doch|jetzt|neue|neu|neuer|neuen|damit|drei|bereits|da|ab|ohne|sondern|selbst|ersten|erste|erstes|etwa|heute|weil|ihm|menschen|deutschland|anderen|rund|ihn|ende|jedoch|zeit|uns|stadt|geht|gehen|ging|sehr|hier|ganz|besitzen|kriegen|nehmen|welche|jenes|fuer|leicht|meinem|blitzlicht|zed|ich|sed|blitzen)([.\/ \-]+|$)'),
+   # Common Norwegian Words
+   array("groupname"=>"alt.binaries.*", "regex"=>'(^|[.\/ \-]+)(jeg|det|er|du|ikke|en|og|har|vi|pa|han|deg|hva|sa|som|kan|de|var|vil|av|om|skal|et|her|ja|ma|hun|dere|noe|dette|nei|na|din|ut|hvor|fra|oss|vaere|dem|se|ha|gjor|noen|hvis|ville|kommer|igjen|ta|alle|hvorfor|fa|tror|hvordan|gar|opp|sa|ingen|ga|nar|hvem|seg|gjore|eller|ser|blir|takk|bli|hadde|si|denne|henne|litt|etter|kunne|vel|jo|skulle|ved|aldri|hei|tilbake|hvad|ogsa|selv|nok|sier|hans|gi|sammen|godt|trenger|mer|dag||vaert|mitt|mye|sett|helt|siden|hele|enn|ar|ditt|komme|deres|af|mann|fordi|fikk|mot|faen|gjort|mangj|snakke|hjem|sant|dra|rett|sann|ikke|unnskyld)([.\/ \-]+|$)'),
+   
+   
    # to many vowels strung together... either not ligit, or german ((don't use, it catches to many other things)
    #array("groupname"=>"alt.binaries.multimedia", "regex"=>'[aoeiuy]{4,80}'),
    #array("groupname"=>"alt.binaries.multimedia", "regex"=>'^{4,80}$'),
