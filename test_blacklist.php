@@ -28,7 +28,7 @@ $blacklist = array(
    # Missing blacklist catching of foreign content
    array("groupname"=>"alt.binaries.*", "regex"=>'[-.](FR|DE|ITA)[-.]'),
    # Common German Keywords
-   array("groupname"=>"alt.binaries.*", "regex"=>'(^|[.\/ \-]+)(und|fuer|ersten|leicht|meinem|zum|aus|dem|blitzlicht|alle|grosse|zed|ich|sed|blitzen)([.\/ \-]+|$)'),
+   array("groupname"=>"alt.binaries.*", "regex"=>'(^|[.\/ \-]+)(sie|seit|ihn|ihm|haben|besitzen|sein|kriegen|nehmen|welche|jenes|von|auf|gegen|nach|das|sein|der|und|fuer|ersten|leicht|meinem|zum|aus|dem|blitzlicht|alle|grosse|zed|ich|sed|blitzen)([.\/ \-]+|$)'),
    # to many vowels strung together... either not ligit, or german ((don't use, it catches to many other things)
    #array("groupname"=>"alt.binaries.multimedia", "regex"=>'[aoeiuy]{4,80}'),
    #array("groupname"=>"alt.binaries.multimedia", "regex"=>'^{4,80}$'),
